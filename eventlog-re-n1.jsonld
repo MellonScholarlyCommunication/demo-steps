@@ -1,0 +1,9 @@
+{
+    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
+    "id": "http://repository.org/publication/1701/events.jsonld",
+    "type": "EventLog",
+    "artifact": "http://repository.org/publication/1701/",
+    "member": [
+        "http://repository.org/publication/1701/n1.jsonld" 
+    ]
+}

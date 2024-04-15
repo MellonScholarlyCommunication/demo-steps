@@ -1,0 +1,30 @@
+{ 
+    "@context": [ 
+      "https://www.w3.org/ns/activitystreams" 
+    ], 
+    "id": "urn:uuid:B4B8A412-A547-43E4-8C57-EA304F049D95",
+    "type": "Announce",
+    "actor": {
+      "id": "http://peer-review.for.us/",
+      "inbox": "http://peer-review.for.us/inbox/",
+      "name": "Peer Review For Us",
+      "type": "Organization" 
+   } ,
+   "origin": {
+      "id": "http://peer-review.for.us/system",
+      "name": "OJS",
+      "type": "Application" 
+   } ,
+   "inReplyTo" : "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495" ,
+   "context" : "http://repository.org/publication/1701" ,
+   "object": {
+      "id": "http://peer-review.for.us/review/10110",
+      "type": "WebPage"
+   },
+   "target": {
+      "id": "http://repository.org/card#us",
+      "inbox": "http://repository.org/inbox/",
+      "name": "Repository of Web Logic",
+      "type": "Organization"
+   }
+}

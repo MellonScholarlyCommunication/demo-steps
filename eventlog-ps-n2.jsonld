@@ -1,0 +1,10 @@
+{
+    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
+    "id": "http://peer-review.for.us/events?artifact=http://repository.org/publication/1701/",
+    "type": "EventLog",
+    "artifact": "http://repository.org/publication/1701/",
+    "member": [
+        "http://peer-review.for.us/events?event=102191" ,
+        "http://peer-review.for.us/events?event=102192" 
+    ]
+}

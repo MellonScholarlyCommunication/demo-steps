@@ -1,0 +1,3 @@
+<http://repository.org/publication/1701/events.jsonld> ; rel="original" ,
+<http://arsip.id/memento/20240601105528/http://repository.org/publication/1701/events.jsonld> ; rel="memento" ; datetime="Sat, 1 Jun 2024 10:55:28 GMT",
+<http://arsip.id/memento/20240601173321/http://repository.org/publication/1701/events.jsonld> ; rel="memento" ; datetime="Sat, 1 Jun 2024 17:33:21 GMT"
