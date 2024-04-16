@@ -7,11 +7,22 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
     />
+    <link rel="stylesheet" href="style.css"/>
     <title>RDF surfaces : computer says no</title>
   </head>
   <body>
     <main class="container">
-        <h2>Repository of Web Logic</h2>
+      <div class="grid">
+        <div class="header">
+          GET /publication/1701 HTTP/1.1 <br>
+          <br>
+          HTTP/1.1 200 OK<br>
+          Content-Type: text/html<br>
+          Link: &lt;/inbox/&gt; ; rel="http://www.w3.org/ns/ldp#inbox"<br>
+          Link-Template: "1701/events.jsonld"; rel="eventlog"
+        </div>
+      </div>
+      <h2>Repository of Web Logic</h2>
       [<i>http://repository.org/publication/1701</i>]<br>
       <br>
 
