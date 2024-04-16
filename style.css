@@ -1,9 +1,5 @@
 .header {
-    overflow: auto;
-    display: block;
-    unicode-bidi: embed;
     font-family: monospace;
-    white-space: pre;
     padding: 10px;
     color:aliceblue;
     background-color:gray;
