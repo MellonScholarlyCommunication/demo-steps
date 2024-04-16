@@ -1,0 +1,55 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <title>RDF surfaces : computer says no</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="grid">
+        <div class="header">
+          GET /publication/1701 HTTP/1.1 <br>
+          <br>
+          HTTP/1.1 200 OK<br>
+          Content-Type: text/html<br>
+          Link: &lt;/inbox/&gt; ; rel="http://www.w3.org/ns/ldp#inbox"<br>
+          Link: &lt;https://orcid.org/0000-0001-8390-6171&gt; ; rel="author"<br>
+          Link: &lt;https://orcid.org/0000-0001-8862-0666&gt; ; rel="author"<br>
+          Link: &lt;https://orcid.org/0000-0002-8596-222X&gt; ; rel="author"<br>
+          Link: &lt;https://spdx.org/licenses/CC-BY-4.0&gt; ; rel="license"<br>
+          Link: &lt;https://schema.org/AboutPage&gt; ; rel="type"<br>
+          Link: &lt;http://hdl.handle.net/1854/1701&gt; ; rel="cite-as"<br>
+          Link: &lt;http://repository.org/publication/1701/content.pdf&gt; ; rel="item"<br>
+        </div>
+      </div>
+      <h2>Repository of Web Logic</h2>
+      [<i>http://repository.org/publication/1701</i>]<br>
+      <br>
+
+      <h1>RDF surfaces : computer says no</h1>
+
+      <p>
+        <b>Patrick Hochstenbach (UGent)</b> , 
+        <b>Jos De Roo (UGent)</b> and <b>Ruben Verborgh (UGent)</b>
+        <br>
+        (2023) Joint Proceedings of the ESWC 2023 Workshops and Tutorials co-located with 20th European Semantic Web Conference (ESWC 2023). In CEUR workshop proceedings 3443.
+      </p>
+
+      <p>
+        <b>Abstract</b><br>
+Logic can define how agents are provided or denied access to resources, how to interlink resources using mining processes and provide users with choices for possible next steps in a workflow. These decisions are for the most part hidden, internal to machines processing data. In order to exchange this internal logic a portable Web logic is required which the Semantic Web could provide. Combining logic and data provides insights into the reasoning process and creates a new level of trust on the Semantic Web. Current Web logics carries only a fragment of first-order logic (FOL) to keep exchange languages decidable or easily processable. But, this is at a cost: the portability of logic. Machines require implicit agreements to know which fragment of logic is being exchanged and need a strategy for how to cope with the different fragments. These choices could obscure insights into the reasoning process. We created RDF Surfaces in order to express the full expressivity of FOL including saying explicitly ‘no’. This vision paper provides basic principles and compares existing work. Even though support for FOL is semi-decidable, we argue these problems are surmountable. RDF Surfaces span many use cases, including describing misuse of information, adding explainability and trust to reasoning, and providing scope for reasoning over streams of data and queries. RDF Surfaces provide the direct translation of FOL for the Semantic Web. We hope this vision paper attracts new implementers and opens the discussion to its formal specification.
+
+      </p>
+
+      <p>
+        <a href="#"><b>Download</b></a>
+      </p>
+    </main>
+  </body>
+</html>
