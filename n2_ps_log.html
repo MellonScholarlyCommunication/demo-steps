@@ -22,7 +22,8 @@
       <pre>
 { 
     "@context": [ 
-        "https://www.w3.org/ns/activitystreams" 
+      "https://www.w3.org/ns/activitystreams",
+      "https://purl.org/coar/notify" 
     ], 
     "id": "urn:uuid:B4B8A412-A547-43E4-8C57-EA304F049D95",
     "type": "Accept",
@@ -37,6 +38,8 @@
         "name": "OJS",
         "type": "Application" 
     } ,
+    "inReplyTo" : "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495" ,
+    "context" : "http://repository.org/publication/1701" ,
     "object": {
         "id": "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495",
         "type": "Offer",
@@ -51,11 +54,18 @@
             "name": "WebLogic 3.12",
             "type": "Application"
         },
-        "inReplyTo" : "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495" ,
-        "context" : "http://repository.org/publication/1701" ,
         "object": {
             "id": "http://repository.org/publication/1701",
-            "type": "Document"
+            "ietf:cite-as": "http://hdl.handle.net/1854/1701",
+            "ietf:item": {
+              "id": "http://repository.org/publication/1701/content.pdf",
+              "mediaType": "application/pdf",
+              "type": [
+                "Article",
+                "sorg:ScholarlyArticle"
+              ]
+            },
+            "type": "sorg:AboutPage"
         },
         "target": {     
             "id": "http://peer-review.for.us/",
