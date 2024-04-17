@@ -12,7 +12,7 @@
   <body>
       <div class="grid">
         <div class="header">
-          GET /events?artifact=http://repo.org/pub/1701/ HTTP/1.1 <br>
+          GET /events?artifact=https://repo.org/pub/1701/ HTTP/1.1 <br>
           <br>
           HTTP/1.1 200 OK<br>
           Content-Type: application/ld+json
@@ -21,12 +21,12 @@
       <pre>
 {
   "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
-  "id": "http://peer4.us/events?artifact=http://repo.org/pub/1701/",
+  "id": "https://peer4.us/events?artifact=https://repo.org/pub/1701/",
   "type": "EventLog",
-  "artifact": "http://repo.org/pub/1701/",
+  "artifact": "https://repo.org/pub/1701/",
   "member": [
     {
-      "id: "<a href="n1_ps_log.html">http://peer4.us/events?event=102191</a>" ,
+      "id: "<a href="n1_ps_log.html">https://peer4.us/events?event=102191</a>" ,
       "checksum": {
         "type": "Checksum",
         "algorithm": "spdx:checksumAlgorithm_md5",
