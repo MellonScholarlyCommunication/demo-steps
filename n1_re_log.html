@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <main class="container">
       <div class="grid">
         <div class="header">
-          GET /publication/1701/n1.jsonld HTTP/1.1 <br>
+          GET /pub/1701/n1.jsonld HTTP/1.1 <br>
           <br>
           HTTP/1.1 200 OK<br>
           Content-Type: application/ld+json
@@ -28,21 +27,21 @@
    "id": "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495",
    "type": "Offer",
    "actor": {
-      "id": "http://repository.org/card#us",
-      "inbox": "http://repository.org/inbox/",
+      "id": "http://repo.org/card#us",
+      "inbox": "http://repo.org/inbox/",
       "name": "Repository of Web Logic",
       "type": "Organization"
    },
    "origin": {
-      "id": "http://repository.org/system",
+      "id": "http://repo.org/system",
       "name": "WebLogic 3.12",
       "type": "Application"
    },
    "object": {
-      "id": "http://repository.org/publication/1701",
+      "id": "http://repo.org/pub/1701",
       "ietf:cite-as": "http://hdl.handle.net/1854/1701",
       "ietf:item": {
-        "id": "http://repository.org/publication/1701/content.pdf",
+        "id": "http://repo.org/pub/1701/content.pdf",
         "mediaType": "application/pdf",
         "type": [
           "Article",
@@ -52,13 +51,12 @@
       "type": "sorg:AboutPage"
    },
    "target": {     
-      "id": "http://peer-review.for.us/",
-      "inbox": "http://peer-review.for.us/inbox/",
+      "id": "http://peer4.us/",
+      "inbox": "http://peer4.us/inbox/",
       "name": "Peer Review For Us",
       "type": "Organization"
    }
 }
       </pre> 
-    </main>
   </body>
 </html>

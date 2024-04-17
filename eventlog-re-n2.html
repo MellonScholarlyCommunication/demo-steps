@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <main class="container">
       <div class="grid">
         <div class="header">
-          GET /publication/1701/events.jsonld HTTP/1.1 <br>
+          GET /pub/1701/events.jsonld HTTP/1.1 <br>
           <br>
           HTTP/1.1 200 OK<br>
           Content-Type: application/ld+json
@@ -21,16 +20,29 @@
       </div>
       <pre>
 {
-    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
-    "id": "http://repository.org/publication/1701/events.jsonld",
-    "type": "EventLog",
-    "artifact": "http://repository.org/publication/1701/",
-    "member": [
-        "<a href="n1_re_log.html">http://repository.org/publication/1701/n1.jsonld</a>" ,
-        "<a href="n2_re_log.html">http://repository.org/publication/1701/n2.jsonld</a>" 
-    ]
+  "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
+  "id": "http://repo.org/pub/1701/events.jsonld",
+  "type": "EventLog",
+  "artifact": "http://repo.org/pub/1701/",
+  "member": [
+    { 
+      "id" : "<a href="n1_re_log.html">http://repo.org/pub/1701/n1.jsonld</a>" ,
+      "checksum": {
+        "type": "Checksum",
+        "algorithm": "spdx:checksumAlgorithm_md5",
+        "checksumValue": "272...115"
+      }
+    },
+    { 
+      "id" : "<a href="n2_re_log.html">http://repo.org/pub/1701/n2.jsonld</a>" ,
+      "checksum": {
+        "type": "Checksum",
+        "algorithm": "spdx:checksumAlgorithm_md5",
+        "checksumValue": "75c...9e3"
+      }
+    }
+  ]
 }
       </pre> 
-    </main>
   </body>
 </html>

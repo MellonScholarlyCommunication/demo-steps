@@ -10,10 +10,9 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <main class="container">
       <div class="grid">
         <div class="header">
-          GET /events?artifact=http://repository.org/publication/1701/ HTTP/1.1 <br>
+          GET /events?artifact=http://repo.org/pub/1701/ HTTP/1.1 <br>
           <br>
           HTTP/1.1 200 OK<br>
           Content-Type: application/ld+json
@@ -21,15 +20,21 @@
       </div>
       <pre>
 {
-    "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
-    "id": "http://peer-review.for.us/events?artifact=http://repository.org/publication/1701/",
-    "type": "EventLog",
-    "artifact": "http://repository.org/publication/1701/",
-    "member": [
-        "<a href="n1_ps_log.html">http://peer-review.for.us/events?event=102191</a>" 
-    ]
+  "@context": "https://labs.eventnotifications.net/contexts/eventlog.jsonld" ,
+  "id": "http://peer4.us/events?artifact=http://repo.org/pub/1701/",
+  "type": "EventLog",
+  "artifact": "http://repo.org/pub/1701/",
+  "member": [
+    {
+      "id: "<a href="n1_ps_log.html">http://peer4.us/events?event=102191</a>" ,
+      "checksum": {
+        "type": "Checksum",
+        "algorithm": "spdx:checksumAlgorithm_md5",
+        "checksumValue": "272...115"
+      }
+    }
+  ]
 }
       </pre> 
-    </main>
   </body>
 </html>

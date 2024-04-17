@@ -10,11 +10,10 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    <main class="container">
       <div class="grid">
         <div class="header">
           POST /inbox/ HTTP/1.1<br>
-          Host: http://repository.org<br>
+          Host: http://repo.org<br>
           Content-Type: application/ld+json ; profile="https://www.w3.org/ns/activitystreams" ; profile="https://www.eventnotifications.net"
         </div>
       </div>
@@ -27,37 +26,37 @@
     "id": "urn:uuid:B4B8A412-A547-43E4-8C57-EA304F049D95",
     "type": "Accept",
     "actor": {
-      "id": "http://peer-review.for.us/",
-      "inbox": "http://peer-review.for.us/inbox/",
+      "id": "http://peer4.us/",
+      "inbox": "http://peer4.us/inbox/",
       "name": "Peer Review For Us",
       "type": "Organization" 
     } ,
     "origin": {
-      "id": "http://peer-review.for.us/system",
+      "id": "http://peer4.us/system",
       "name": "OJS",
       "type": "Application" 
     } ,
     "inReplyTo" : "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495" ,
-    "context" : "http://repository.org/publication/1701" ,
+    "context" : "http://repo.org/pub/1701" ,
     "object": {
       "id": "urn:uuid:6E5FAF88-A7F1-47A4-B087-77345EBFF495",
       "type": "Offer",
       "actor": {
-         "id": "http://repository.org/card#us",
-         "inbox": "http://repository.org/inbox/",
+         "id": "http://repo.org/card#us",
+         "inbox": "http://repo.org/inbox/",
          "name": "Repository of Web Logic",
          "type": "Organization"
       },
       "origin": {
-         "id": "http://repository.org/system",
+         "id": "http://repo.org/system",
          "name": "WebLogic 3.12",
          "type": "Application"
       },
       "object": {
-        "id": "http://repository.org/publication/1701",
+        "id": "http://repo.org/pub/1701",
         "ietf:cite-as": "http://hdl.handle.net/1854/1701",
         "ietf:item": {
-          "id": "http://repository.org/publication/1701/content.pdf",
+          "id": "http://repo.org/pub/1701/content.pdf",
           "mediaType": "application/pdf",
           "type": [
             "Article",
@@ -67,20 +66,19 @@
         "type": "sorg:AboutPage"
       },
       "target": {     
-         "id": "http://peer-review.for.us/",
-         "inbox": "http://peer-review.for.us/inbox/",
+         "id": "http://peer4.us/",
+         "inbox": "http://peer4.us/inbox/",
          "name": "Peer Review For Us",
          "type": "Organization"
       }
    },
    "target": {
-      "id": "http://repository.org/card#us",
-      "inbox": "http://repository.org/inbox/",
+      "id": "http://repo.org/card#us",
+      "inbox": "http://repo.org/inbox/",
       "name": "Repository of Web Logic",
       "type": "Organization"
    }
 }
       </pre> 
-    </main>
   </body>
 </html>
